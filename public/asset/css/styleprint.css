@@ -1,0 +1,95 @@
+/* style.css */
+
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    margin: 0.5em 0;
+}
+
+img {
+    border: none;
+}
+
+/* Layout */
+.col-md-12 {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Print Area Styling */
+.print-area {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+}
+
+.print-area img {
+    width: 10%;
+}
+
+.print-area h2 {
+    font-weight: bold;
+    color: #f36f5b;
+    margin-top: -4px;
+}
+
+.print-area h1 {
+    font-size: 70pt;
+    font-weight: bold;
+    color: #029688;
+    margin-top: -10px;
+}
+
+.print-area h3 {
+    margin-top: -10px;
+    color: #029688;
+}
+
+/* Button Styling */
+.btn-outline {
+    border: 2px solid #029688;
+    color: #029688;
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-outline:hover {
+    background-color: #029688;
+    color: #fff;
+}
+
+.no-print {
+    margin-top: 20px;
+    width: 13%;
+    height: auto;
+    display: inline-block;
+}
+
+.icons.icon-printer {
+    margin-right: 5px;
+}
+
+/* Print Specific Styling */
+@media print {
+    .no-print {
+        display: none;
+    }
+}
