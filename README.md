@@ -10,7 +10,7 @@ Pastikan sistem Anda memenuhi persyaratan berikut sebelum memulai:
   
 # panduan menjalankan aplikasi
 
-1 Migrasi database di terminal dengan perintah php artisan migrate
-2 seed database di terminal dengan perintah php artisan db:seed --class=UsersTableSeeder
-3 jalankan perintah php artisan serve
-4 jalankan server
+- Migrasi database di terminal dengan perintah php artisan migrate
+- seed database di terminal dengan perintah php artisan db:seed --class=UsersTableSeeder
+- jalankan perintah php artisan serve
+- jalankan server
